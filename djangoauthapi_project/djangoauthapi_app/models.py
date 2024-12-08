@@ -15,7 +15,7 @@ class UserManager(BaseUserManager):
             name=name,
             tc=tc,
         )
-        user.set_password(password)
+        user.set_password(password)  # Set the password using set_password to hash it
         user.save(using=self._db)
         return user
 
@@ -47,10 +47,10 @@ class User(AbstractBaseUser):
     create_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
 
-    objects = UserManager()
+    objects = UserManager()  # Use the custom manager
 
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['name', 'tc']
+    USERNAME_FIELD = 'email'  # The field to use for authentication
+    REQUIRED_FIELDS = ['name', 'tc']  # Fields required during creation of superuser
 
     def __str__(self):
         return self.email
@@ -69,6 +69,7 @@ class User(AbstractBaseUser):
 
     @property
     def is_staff(self):
-        "Is the user a member of staff?"
-        # Simplest possible answer: All admins are staff
+        """
+        Override staff status to return True if the user is an admin.
+        """
         return self.is_admin

@@ -93,6 +93,8 @@ DATABASES = {
 
 
 AUTH_USER_MODEL = 'djangoauthapi_app.User'
+# AUTHENTICATION_BACKENDS = ['djangoauthapi_app.authentication.EmailBackend']
+
 
 
 # Password validation
@@ -116,13 +118,9 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 REST_FRAMEWORK = {
-    
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-        
-    )
-    
+    ),
 }
 
 

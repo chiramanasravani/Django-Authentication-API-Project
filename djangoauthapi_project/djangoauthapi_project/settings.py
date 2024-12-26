@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -92,7 +93,7 @@ DATABASES = {
 }
 
 
-AUTH_USER_MODEL = 'djangoauthapi_app.User'
+
 # AUTHENTICATION_BACKENDS = ['djangoauthapi_app.authentication.EmailBackend']
 
 
@@ -145,6 +146,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'djangoauthapi_app.User'
 
 
 SIMPLE_JWT = {
@@ -169,10 +171,18 @@ SIMPLE_JWT = {
  
 }
 
-
+PASSWORD_RESET_TIME_OUT = 900  #900 seconds = 15 minutes
 
 CORS_ALLOWED_ORIGINS = [
 
     "http://localhost:3000",
     "http://127.0.0.1:9000",
 ]
+
+# Email Configuration
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+EMAIL_USE_TLS = True

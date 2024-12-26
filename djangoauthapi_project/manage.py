@@ -2,10 +2,12 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import dotenv
 
 
 def main():
     """Run administrative tasks."""
+    dotenv.load_dotenv()  # Updated to the correct method
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoauthapi_project.settings')
     try:
         from django.core.management import execute_from_command_line

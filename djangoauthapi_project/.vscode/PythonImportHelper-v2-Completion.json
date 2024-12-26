@@ -169,6 +169,62 @@
         "documentation": {}
     },
     {
+        "label": "Util",
+        "importPath": "djangoauthapi_app.utils",
+        "description": "djangoauthapi_app.utils",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "smart_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoUnicodeDecodeError",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -201,7 +257,31 @@
         "documentation": {}
     },
     {
+        "label": "SendPasswordResetEmailView",
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangePasswordView",
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
         "label": "UserLoginView",
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileView",
         "importPath": "djangoauthapi_app.views",
         "description": "djangoauthapi_app.views",
         "isExtraImport": true,
@@ -214,6 +294,31 @@
         "description": "djangoauthapi_app.views",
         "isExtraImport": true,
         "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserPasswordResetView",
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -257,7 +362,23 @@
         "documentation": {}
     },
     {
-        "label": "UserRegistrationSerializer",
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "SendPasswordResetEmailSerializer",
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangePasswordSeializer",
         "importPath": "djangoauthapi_app.serializers",
         "description": "djangoauthapi_app.serializers",
         "isExtraImport": true,
@@ -273,12 +394,27 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "UserPasswordResetSerializer",
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileSerializer",
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationSerializer",
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "isExtraImport": true,
+        "detail": "djangoauthapi_app.serializers",
         "documentation": {}
     },
     {
@@ -320,6 +456,15 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -408,7 +553,43 @@
         "kind": 6,
         "importPath": "djangoauthapi_app.serializers",
         "description": "djangoauthapi_app.serializers",
-        "peekOfCode": "class UserLoginSerializer(serializers.Serializer):\n    email = serializers.EmailField()\n    password = serializers.CharField(write_only=True)\n    def validate(self, attrs):\n        email = attrs.get('email')\n        password = attrs.get('password')\n        # Authenticate user using the email and password\n        user = authenticate(email=email, password=password)\n        if not user:\n            raise serializers.ValidationError('Invalid email or password.')",
+        "peekOfCode": "class UserLoginSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField(max_length=255)\n    password = serializers.CharField(write_only=True)\n    class Meta:\n        model = get_user_model()  # Use get_user_model() for better flexibility\n        fields = ['email', 'password']\n    def validate(self, attrs):\n        email = attrs.get('email')\n        password = attrs.get('password')\n        user = authenticate(email=email, password=password)",
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileSerializer",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "peekOfCode": "class UserProfileSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ['id', 'name', 'email',]\nclass UserChangePasswordSeializer(serializers.Serializer):\n    password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write_only=True)\n    confirm_password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write_only=True)\n    # confirm_password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write\n    class Meta:\n        fields = ['password', 'confirm_password']",
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangePasswordSeializer",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "peekOfCode": "class UserChangePasswordSeializer(serializers.Serializer):\n    password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write_only=True)\n    confirm_password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write_only=True)\n    # confirm_password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write\n    class Meta:\n        fields = ['password', 'confirm_password']\n    def validate(self, attrs):\n        password = attrs.get('password')\n        confirm_password = attrs.get('confirm_password')\n        user = self._context.get('user')",
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SendPasswordResetEmailSerializer",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "peekOfCode": "class SendPasswordResetEmailSerializer(serializers.Serializer):\n    email = serializers.EmailField(max_length=255)\n    class Meta:\n        fields = ['email']\n    def validate(self, attrs):\n        email = attrs.get('email')\n        if User.objects.filter(email=email).exists():\n            user = User.objects.get(email=email)\n            uid = urlsafe_base64_encode(force_bytes(user.id))\n            print(\"Encoded UID:\", uid)",
+        "detail": "djangoauthapi_app.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserPasswordResetSerializer",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.serializers",
+        "description": "djangoauthapi_app.serializers",
+        "peekOfCode": "class UserPasswordResetSerializer(serializers.Serializer):\n    password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write_only=True)\n    confirm_password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write_only=True)\n    # confirm_password = serializers.CharField(max_length=255, style={'input_type': 'password'}, write\n    class Meta:\n        fields = ['password', 'confirm_password']\n    def validate(self, attrs):\n        try:\n            password = attrs.get('password')\n            confirm_password = attrs.get('confirm_password')",
         "detail": "djangoauthapi_app.serializers",
         "documentation": {}
     },
@@ -417,8 +598,17 @@
         "kind": 5,
         "importPath": "djangoauthapi_app.urls",
         "description": "djangoauthapi_app.urls",
-        "peekOfCode": "urlpatterns = [\n       path('register/', UserRegistrationView .as_view(), name='register'),\n       path('login/', UserLoginView .as_view(), name='login'),\n]",
+        "peekOfCode": "urlpatterns = [\n       path('register/', UserRegistrationView.as_view(), name='register'),\n       path('login/', UserLoginView.as_view(), name='login'),\n       path('profile/', UserProfileView.as_view(), name='profile'),\n       path('changepassword/', UserChangePasswordView.as_view(), name='changepassword'),\n       path('send_reset_pws_email/', SendPasswordResetEmailView.as_view(), name='send_reset_pws_email'),\n       path('reset_password/<uid>/<token>/', UserPasswordResetView.as_view(), name='reset_password')\n]",
         "detail": "djangoauthapi_app.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Util",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.utils",
+        "description": "djangoauthapi_app.utils",
+        "peekOfCode": "class Util:\n    @staticmethod\n    def send_email(data):\n        email = EmailMessage(\n            subject=data['subject'],\n            body=data['body'],\n            from_email=os.environ.get('EMAIL_FROM'),  # Use EMAIL_FROM from environment variables\n            to=[data['to_email']]\n        )\n        # Send the email",
+        "detail": "djangoauthapi_app.utils",
         "documentation": {}
     },
     {
@@ -436,6 +626,42 @@
         "importPath": "djangoauthapi_app.views",
         "description": "djangoauthapi_app.views",
         "peekOfCode": "class UserLoginView(APIView):\n    renderer_classes = [UserRenderer]\n    def post(self, request, format=None):\n        serializer = UserLoginSerializer(data=request.data)\n        if serializer.is_valid(raise_exception=True):\n            email = serializer.validated_data.get('email')\n            password = serializer.validated_data.get('password')\n            # Authenticate user using email and password\n            user = authenticate(request, email=email, password=password)\n            if user is not None:",
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileView",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "peekOfCode": "class UserProfileView(APIView):\n    renderer_classes = [UserRenderer]\n    permission_classes = [IsAuthenticated]\n    def get(self, request, format=None):\n        serializer = UserProfileSerializer (request.user)\n        return Response(serializer.data, status=status.HTTP_200_OK)\nclass UserChangePasswordView(APIView):\n    renderer_classes = [UserRenderer]\n    permission_classes = [IsAuthenticated]\n    def post(self, request, format=None):",
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangePasswordView",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "peekOfCode": "class UserChangePasswordView(APIView):\n    renderer_classes = [UserRenderer]\n    permission_classes = [IsAuthenticated]\n    def post(self, request, format=None):\n        serializer = UserChangePasswordSeializer (data=request.data, context={'user': request.user})\n        if serializer.is_valid(raise_exception=True):\n            return Response({'msg': 'Password Change successful'}, status=status.HTTP_200_OK)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\nclass SendPasswordResetEmailView(APIView):\n    renderer_classes = [UserRenderer",
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "SendPasswordResetEmailView",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "peekOfCode": "class SendPasswordResetEmailView(APIView):\n    renderer_classes = [UserRenderer\n                        ]\n    def post(self, request, format=None):\n        serializer = SendPasswordResetEmailSerializer(data=request.data)\n        if serializer.is_valid(raise_exception=True):\n            return Response({'msg': 'Password Reset Email sent'}, status=status.HTTP_200_OK)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\nclass UserPasswordResetView(APIView):\n    renderer_classes = [UserRenderer]",
+        "detail": "djangoauthapi_app.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserPasswordResetView",
+        "kind": 6,
+        "importPath": "djangoauthapi_app.views",
+        "description": "djangoauthapi_app.views",
+        "peekOfCode": "class UserPasswordResetView(APIView):\n    renderer_classes = [UserRenderer]\n    def post(self, request, uid, token, format=None):\n        serializer = UserPasswordResetSerializer(data=request.data, context={'uid':uid, 'token':token})\n        if serializer.is_valid(raise_exception=True):\n            return Response({'msg': 'Password Reset successful'}, status=status.HTTP_200_OK)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)",
         "detail": "djangoauthapi_app.views",
         "documentation": {}
     },
@@ -548,15 +774,6 @@
         "documentation": {}
     },
     {
-        "label": "AUTH_USER_MODEL",
-        "kind": 5,
-        "importPath": "djangoauthapi_project.settings",
-        "description": "djangoauthapi_project.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'djangoauthapi_app.User'\n# AUTHENTICATION_BACKENDS = ['djangoauthapi_app.authentication.EmailBackend']\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',",
-        "detail": "djangoauthapi_project.settings",
-        "documentation": {}
-    },
-    {
         "label": "AUTH_PASSWORD_VALIDATORS",
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
@@ -588,7 +805,7 @@
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
         "description": "djangoauthapi_project.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSIMPLE_JWT = {",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'djangoauthapi_app.User'",
         "detail": "djangoauthapi_project.settings",
         "documentation": {}
     },
@@ -597,7 +814,7 @@
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
         "description": "djangoauthapi_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'djangoauthapi_app.User'\nSIMPLE_JWT = {",
         "detail": "djangoauthapi_project.settings",
         "documentation": {}
     },
@@ -606,7 +823,7 @@
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
         "description": "djangoauthapi_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'djangoauthapi_app.User'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),",
         "detail": "djangoauthapi_project.settings",
         "documentation": {}
     },
@@ -615,7 +832,7 @@
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
         "description": "djangoauthapi_project.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n    \"AUTH_HEADER_NAME\": \"HTTP_AUTHORIZATION\",\n    \"USER_ID_FIELD\": \"id\",",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'djangoauthapi_app.User'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n    \"AUTH_HEADER_NAME\": \"HTTP_AUTHORIZATION\",",
         "detail": "djangoauthapi_project.settings",
         "documentation": {}
     },
@@ -624,7 +841,16 @@
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
         "description": "djangoauthapi_project.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n    \"AUTH_HEADER_NAME\": \"HTTP_AUTHORIZATION\",\n    \"USER_ID_FIELD\": \"id\",\n    \"USER_ID_CLAIM\": \"user_id\",\n    \"USER_AUTHENTICATION_RULE\": \"rest_framework_simplejwt.authentication.default_user_authentication_rule\",\n    \"AUTH_TOKEN_CLASSES\": (\"rest_framework_simplejwt.tokens.AccessToken\",),",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'djangoauthapi_app.User'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n    \"AUTH_HEADER_NAME\": \"HTTP_AUTHORIZATION\",\n    \"USER_ID_FIELD\": \"id\",\n    \"USER_ID_CLAIM\": \"user_id\",\n    \"USER_AUTHENTICATION_RULE\": \"rest_framework_simplejwt.authentication.default_user_authentication_rule\",",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'djangoauthapi_app.User'\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=20),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=1),\n    \"AUTH_HEADER_TYPES\": (\"Bearer\",),\n    \"AUTH_HEADER_NAME\": \"HTTP_AUTHORIZATION\",\n    \"USER_ID_FIELD\": \"id\",\n    \"USER_ID_CLAIM\": \"user_id\",\n    \"USER_AUTHENTICATION_RULE\": \"rest_framework_simplejwt.authentication.default_user_authentication_rule\",\n    \"AUTH_TOKEN_CLASSES\": (\"rest_framework_simplejwt.tokens.AccessToken\",),",
         "detail": "djangoauthapi_project.settings",
         "documentation": {}
     },
@@ -638,11 +864,83 @@
         "documentation": {}
     },
     {
+        "label": "PASSWORD_RESET_TIME_OUT",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "PASSWORD_RESET_TIME_OUT = 900  #900 seconds = 15 minutes\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:9000\",\n]\n# Email Backend Configuration\nEMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"  # Using Gmail SMTP server (update if using another provider)\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True  # Enabling TLS for security",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
         "label": "CORS_ALLOWED_ORIGINS",
         "kind": 5,
         "importPath": "djangoauthapi_project.settings",
         "description": "djangoauthapi_project.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:9000\",\n]",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:9000\",\n]\n# Email Backend Configuration\nEMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"  # Using Gmail SMTP server (update if using another provider)\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True  # Enabling TLS for security\n# Get credentials from the environment variables",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.smtp.EmailBackend\"\nEMAIL_HOST = \"smtp.gmail.com\"  # Using Gmail SMTP server (update if using another provider)\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True  # Enabling TLS for security\n# Get credentials from the environment variables\nEMAIL_HOST_USER = 'sravanichiramana1800@gmail.com'\nEMAIL_HOST_PASSWORD = 'Chanu1800@'  # App password if 2FA is enabled\nDEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "EMAIL_HOST = \"smtp.gmail.com\"  # Using Gmail SMTP server (update if using another provider)\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True  # Enabling TLS for security\n# Get credentials from the environment variables\nEMAIL_HOST_USER = 'sravanichiramana1800@gmail.com'\nEMAIL_HOST_PASSWORD = 'Chanu1800@'  # App password if 2FA is enabled\nDEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True  # Enabling TLS for security\n# Get credentials from the environment variables\nEMAIL_HOST_USER = 'sravanichiramana1800@gmail.com'\nEMAIL_HOST_PASSWORD = 'Chanu1800@'  # App password if 2FA is enabled\nDEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True  # Enabling TLS for security\n# Get credentials from the environment variables\nEMAIL_HOST_USER = 'sravanichiramana1800@gmail.com'\nEMAIL_HOST_PASSWORD = 'Chanu1800@'  # App password if 2FA is enabled\nDEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'sravanichiramana1800@gmail.com'\nEMAIL_HOST_PASSWORD = 'Chanu1800@'  # App password if 2FA is enabled\nDEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'Chanu1800@'  # App password if 2FA is enabled\nDEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
+        "detail": "djangoauthapi_project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "djangoauthapi_project.settings",
+        "description": "djangoauthapi_project.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = 'sravanichiramana1800@gmail.com'",
         "detail": "djangoauthapi_project.settings",
         "documentation": {}
     },
@@ -669,7 +967,7 @@
         "kind": 2,
         "importPath": "manage",
         "description": "manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoauthapi_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    dotenv.load_dotenv()  # Updated to the correct method\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoauthapi_project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"",
         "detail": "manage",
         "documentation": {}
     }
